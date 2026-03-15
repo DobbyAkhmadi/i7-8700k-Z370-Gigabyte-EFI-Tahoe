@@ -1,6 +1,6 @@
-# Gigabyte Z370 AORUS 2.0 + i7-8700K Hackintosh (macOS Sonoma 14.3.1)
+# Gigabyte Z370 AORUS 2.0 + i7-8700K Hackintosh (macOS Tahoe 26.3.2)
 
-A complete **OpenCore EFI configuration** for running **macOS Sonoma 14.3.1** on **Gigabyte Z370 AORUS 2.0** with **Intel Core i7-8700K** and **RX Vega 64**.
+A complete **OpenCore EFI configuration** for running **macOS Tahoe  26.3.2 ** on **Gigabyte Z370 AORUS 2.0** with **Intel Core i7-8700K** and **ASUS STRIX RX Vega 64**.
 
 This repository includes a ready-to-use **EFI folder**, configured and tested with **OpenCore 1.0.6**.
 
@@ -13,14 +13,14 @@ This repository includes a ready-to-use **EFI folder**, configured and tested wi
 
 | Component | Model |
 |---|---|
-| **macOS Version** | macOS Sonoma 14.3.1 |
+| **macOS Version** | macOS Tahoe 26.3.2 |
 | **Bootloader** | OpenCore 1.0.6 |
 | **Motherboard** | Gigabyte Z370 AORUS 2.0 |
 | **CPU** | Intel Core i7-8700K |
 | **RAM** | 32GB DDR4 3200MHz |
 | **GPU** | ASUS RX Vega 64 STRIX 8GB |
-| **Storage** | ADATA 256GB SSD |
-| **SMBIOS** | iMacPro19,1 (2019) |
+| **Storage** | SSD SAMSUNG EVO 970 250GB SSD |
+| **SMBIOS** | MacPro7,1 (2019) |
 
 ---
 
@@ -30,9 +30,10 @@ All core hardware has been tested and works properly.
 
 | Feature | Status |
 |---|---|
-| macOS Sonoma 14.3.1 | ✅ Working |
+| macOS Tahoe 26.3.2 | ✅ Working |
 | CPU Power Management | ✅ Working |
 | GPU Acceleration | ✅ Native Fully Working |
+| GPU Fan | ✅ Working With Kext VGTAB  |
 | USB Ports | ✅ Working |
 | Thunderbolt | ✅ Working |
 | Audio | ✅ Working |
